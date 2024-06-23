@@ -1,14 +1,14 @@
 #!/bin/bash
 
 user_name="root"                                    # 用户名
-user_password="root"                                # 登录密码
-lan_ip="192.168.31"                                 # LAN 地址 别写后面的 .1
-wlan_2g_ssid="int_2.4G"                             # 2G 无线名称
-wlan_5g_ssid="int_5G"                               # 5G 无线名称
-wlan_guest_2g_ssid="int_pub_2.4G"                   # 2G 访客无线名称
-wlan_guest_5g_ssid="int_pub_5G"                     # 5G 访客无线名称
-wlan_2g_psk="qwerasdf"                              # 2G WIFI密码最少8位 空白为不设置
-wlan_5g_psk="qwerasdf"                              # 5G WIFI密码最少8位 空白为不设置
+user_password="admin"                                # 登录密码
+lan_ip="192.168.10"                                 # LAN 地址 别写后面的 .1
+wlan_2g_ssid="2101"                             # 2G 无线名称
+wlan_5g_ssid="2101-5G"                               # 5G 无线名称
+wlan_guest_2g_ssid="2101_pub"                   # 2G 访客无线名称
+wlan_guest_5g_ssid="2101_pub_5G"                     # 5G 访客无线名称
+wlan_2g_psk="12345678"                              # 2G WIFI密码最少8位 空白为不设置
+wlan_5g_psk="12345678"                              # 5G WIFI密码最少8位 空白为不设置
 version_time=$(date +%Y%m%d)                        # 更新时版本号时间: 20210101
 default_file="./user/shared/defaults.h"             # 默认配置文件
 
